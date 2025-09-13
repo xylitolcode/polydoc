@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @TableName("cell_values")
 public class CellValue {
     private Long id;
-    private Long recordId;
+    private Long rowId;
     private Long fieldId;
     private String valueText;
     private Double valueNum;
